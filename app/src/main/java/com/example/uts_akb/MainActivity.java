@@ -45,14 +45,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.nav_profil:
+                getSupportActionBar().setTitle("Profil");
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ProfileFragment()).commit();
                 break;
             case R.id.nav_contact:
+                getSupportActionBar().setTitle("Kontak");
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ContactFragment()).commit();
                 break;
             case R.id.nav_friend:
+                getSupportActionBar().setTitle("Daftar Teman");
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FriendFragment()).commit();
                 break;
