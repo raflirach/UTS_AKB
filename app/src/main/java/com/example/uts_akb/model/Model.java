@@ -1,4 +1,4 @@
-package com.example.uts_akb;
+package com.example.uts_akb.model;
 
 public class Model {
     private String nim;

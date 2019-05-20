@@ -10,9 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.LinearLayout;
 
-import com.wang.avi.AVLoadingIndicatorView;
+import com.example.uts_akb.view.ContactFragment;
+import com.example.uts_akb.view.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 

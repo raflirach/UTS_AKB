@@ -1,4 +1,4 @@
-package com.example.uts_akb;
+package com.example.uts_akb.presenter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -7,8 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
+
+import com.example.uts_akb.R;
+import com.example.uts_akb.model.Model;
 
 import java.util.List;
 

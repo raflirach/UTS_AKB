@@ -1,4 +1,4 @@
-package com.example.uts_akb;
+package com.example.uts_akb.view;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.uts_akb.R;
 
 public class ProfileFragment extends Fragment {
     @Nullable
