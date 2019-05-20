@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 import com.example.uts_akb.model.Model;
@@ -15,6 +16,7 @@ public class crud extends AppCompatActivity{
 
     List<Model> models;
     String getNim,getNama;
+    TextView judul;
     EditText nim,nama,kelas,telepon,email,instagram;
     int key;
 
@@ -24,6 +26,7 @@ public class crud extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crud);
 
+        judul = findViewById(R.id.judul);
         nim = findViewById(R.id.tNim);
         nama = findViewById(R.id.tNama);
         kelas = findViewById(R.id.tKelas);
@@ -39,6 +42,7 @@ public class crud extends AppCompatActivity{
             telepon.setText(ex.getString("telepon"));
             email.setText(ex.getString("email"));
             instagram.setText(ex.getString("instagram"));
+            judul.setText(ex.getString("judul"));
         }
     }
 

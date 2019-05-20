@@ -142,6 +142,7 @@ public class teman extends AppCompatActivity implements NavigationView.OnNavigat
         switch (v.getId()) {
             case R.id.btn_tambah:
                 Intent intent = new Intent(this,crud.class);
+                intent.putExtra("judul","Tambah Data");
                 startActivity(intent);
                 finish();
                 break;
@@ -156,6 +157,7 @@ public class teman extends AppCompatActivity implements NavigationView.OnNavigat
                 intent2.putExtra("telepon",models.get(viewPager.getCurrentItem()).getTelepon());
                 intent2.putExtra("email",models.get(viewPager.getCurrentItem()).getEmail());
                 intent2.putExtra("instagram",models.get(viewPager.getCurrentItem()).getInstagram());
+                intent2.putExtra("judul","Edit Data");
                 startActivity(intent2);
                 finish();
                 }
