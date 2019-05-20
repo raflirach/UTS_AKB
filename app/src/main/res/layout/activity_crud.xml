@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crud">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image_visibility" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/tNim"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp"
+        android:hint="Nim"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/tNama"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/tKelas"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="Kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/tTelepon"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="Telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/tEmail"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/tInstagram"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="Instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:onClick="sendvalue"/>
+    </LinearLayout>
+</RelativeLayout>

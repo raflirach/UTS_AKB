@@ -7,7 +7,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".teman"
-    tools:openDrawer="start">
+    tools:openDrawer="end">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image_visibility" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:layout_centerInParent="true"
+        android:id="@+id/viewPager"
+        android:overScrollMode="never"
+        android:clipToPadding="false"
+        >
+    </android.support.v4.view.ViewPager>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,10 +37,39 @@
             android:background="@color/colorPrimary"
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <ImageButton
+                android:id="@+id/btn_hapus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ic_delete"
+                android:layout_marginHorizontal="10dp"
+                />
+            <ImageButton
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ic_edit"
+                android:layout_marginHorizontal="10dp"
+                />
+            <ImageButton
+                android:id="@+id/btn_tambah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/ic_add"
+                android:layout_marginHorizontal="10dp"/>
+        </android.support.v7.widget.Toolbar>
 
 
-            />
+
+
 
     </LinearLayout>
 
