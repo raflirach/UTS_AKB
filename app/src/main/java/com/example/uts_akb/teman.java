@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.uts_akb.model.Model;
@@ -30,7 +31,7 @@ public class teman extends AppCompatActivity implements NavigationView.OnNavigat
     List<Model> models;
     ImageButton btn_tambah, btn_hapus, btn_edit;
     EditText edit_nim, edit_nama, edit_kelas, edit_telepon, edit_email, edit_instagram;
-
+    LinearLayout insta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +88,7 @@ public class teman extends AppCompatActivity implements NavigationView.OnNavigat
         viewPager = findViewById(R.id.viewPager);
         viewPager.setAdapter(adapter);
         viewPager.setPadding(20, 0, 50, 0);
+
     }
 
     private void init() {
