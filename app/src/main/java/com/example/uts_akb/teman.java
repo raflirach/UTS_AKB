@@ -76,7 +76,7 @@ public class teman extends AppCompatActivity implements NavigationView.OnNavigat
             String getInstagram = ex.getString("instagram");
             int getKey = ex.getInt("key");
             //Toast.makeText(this,String.valueOf(getKey), Toast.LENGTH_SHORT).show();
-            if(getKey>=0 && getKey<models.size()){
+            if(getKey>0 && getKey<models.size()){
                 models.set(getKey,new Model(getNim, getNama, getKelas, getTelepon,
                         getEmail, getInstagram));
                 Toast.makeText(this,"Data berhasil diedit", Toast.LENGTH_SHORT).show();
