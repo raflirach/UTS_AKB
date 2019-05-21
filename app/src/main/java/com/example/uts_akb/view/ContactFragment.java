@@ -1,3 +1,8 @@
+//  Tanggal Pengerjaan : 17 Mei 2019
+//  Nim                : 10116132
+//  Nama               : Rafli Rachmawandi
+//  Kelas              : IF-3
+
 package com.example.uts_akb.view;
 
 import android.content.ActivityNotFoundException;

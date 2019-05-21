@@ -1,3 +1,8 @@
+//  Tanggal Pengerjaan : 21 Mei 2019
+//  Nim                : 10116132
+//  Nama               : Rafli Rachmawandi
+//  Kelas              : IF-3
+
 package com.example.uts_akb;
 
 import android.content.Context;
